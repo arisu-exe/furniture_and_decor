@@ -1,0 +1,29 @@
+modLoader="javafml" #mandatory
+loaderVersion="[36,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="All rights reserved"
+issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+[[mods]] #mandatory
+modId="furniture_and_decor" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Furniture and Decor" #mandatory
+updateJSONURL="https://change.me.example.invalid/updates.json" #optional
+displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+logoFile="examplemod.png" #optional
+credits="Forge guys, mojang, my friends, blah blah blah" #optional
+authors="fallOut015" #optional
+description='''
+A bite-sized mod that adds custom furniture and other decorative items.
+'''
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.furniture_and_decor]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[36,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.furniture_and_decor]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"

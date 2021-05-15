@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "minecraft:block/oak_planks",
+    "down": "minecraft:block/oak_planks",
+    "up": "furniture_and_decor:block/upholstery_table_top",
+    "north": "furniture_and_decor:block/upholstery_table_front",
+    "east": "furniture_and_decor:block/upholstery_table_side",
+    "south": "furniture_and_decor:block/upholstery_table_side",
+    "west": "furniture_and_decor:block/upholstery_table_front"
+  }
+}

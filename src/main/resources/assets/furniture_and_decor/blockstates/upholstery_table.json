@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "" : {
+      "model" : "furniture_and_decor:block/upholstery_table"
+    }
+  }
+}
