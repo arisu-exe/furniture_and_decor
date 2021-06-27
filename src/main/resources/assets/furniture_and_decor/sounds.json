@@ -1,0 +1,16 @@
+{
+  "gui.upholstery_table.select_template" : {
+    "category" : "gui",
+    "subtitle" : "subtitles.gui.upholstery_table.select_template",
+    "sounds" : [
+      "furniture_and_decor:gui/upholstery_table/select_template"
+    ]
+  },
+  "gui.upholstery_table.take_result" : {
+    "category" : "gui",
+    "subtitle" : "subtitles.gui.upholstery_table.take_result",
+    "sounds" : [
+      "furniture_and_decor:gui/upholstery_table/take_result"
+    ]
+  }
+}
